@@ -1,0 +1,199 @@
+.box{
+    height: 500px; 
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.bullet{
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: rgb(134, 138, 243);
+    margin-right: 10px;
+}
+
+
+/*  t1 styles  */
+.shepherd-theme-1 .shepherd-content{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 0px;
+}
+
+.shepherd-theme-1 .shepherd-text{
+    padding: 0px;
+    margin-bottom: 15px;
+}
+.shepherd-theme-1 .shepherd-footer{
+    border-radius: 0px;
+}
+.t1-card{
+    width: 100%;
+    height: 200px;
+}
+.t1-card-body{
+    height: 100%;
+    width: 100%;
+    background: url('https://images.pexels.com/photos/3109808/pexels-photo-3109808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 10px;
+    display: flex;
+    align-items: end;
+    justify-content: left;
+    font-family: sans-serif;
+    line-height: 28px;
+
+}
+.shepherd-theme-1 .shepherd-footer{
+    display: flex;
+    align-items: center;
+}
+
+.shepherd-theme-1 .shepherd-button{
+    border-radius: 0px;
+    background-color: #292789;
+    color: white;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.shepherd-theme-1 .shepherd-button:hover{
+    background-color: #292789;
+}
+
+
+/*  t2 styles  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.shepherd-theme-2 .shepherd-content{
+    border-radius: 0px;
+    border: 2px solid black;
+    box-shadow: -8px -8px 0 0 #FFE54C, -8px -8px 0 2px black;
+}
+
+.shepherd-theme-2 .shepherd-text{
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    padding: 15px;
+}
+.shepherd-theme-2 .shepherd-footer{
+    border-radius: 0px;
+}
+.t2-card{
+    width: 100%;
+    height: 180px;
+    position: relative;
+}
+.shepherd-theme-2 .shepherd-button{
+    border-radius: 0px;
+    border: 2px solid black;
+    box-shadow: -4px -4px 0 0 #f4f4f4, -4px -4px 0 1px black;
+    background-color: #FFE54C;
+    color: black;
+    margin-left: 15px;
+}
+.shepherd-theme-2 .shepherd-button:hover{
+    background-color: #292789;
+    box-shadow: -2px -2px 0 0 #f4f4f4, -2px -2px 0 2px black;
+    background-color: #FFE54C;
+    color: black;
+}
+.t2-card-title{
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.t2-card-text{
+    font-size: 12px;
+}
+.t2-close-btn{
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    height: 20px;
+    width: 20px;
+}
+.t2-close-btn:hover{
+    cursor: pointer;
+}
+
+/*  t3 styles  */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.shepherd-theme-3 .shepherd-content{
+    font-family: "Noto Sans", sans-serif;
+    padding: 0px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: rgba(71, 75, 255, 0.075) 0px 2px 3px;
+    background: rgb(255, 255, 255);
+}
+.shepherd-theme-3 .shepherd-text{
+    padding: 0px;
+}
+.shepherd-theme-3 .shepherd-footer{
+    border-radius: 0px;
+}
+
+.t3-card{
+    padding: 15px;
+}
+.t3-card-title{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24px;
+    margin-bottom: 10px;
+    color: #5C4033;
+}
+.t3-card-text{
+    font-size: 14px;
+    font-weight: 300;
+}
+.t3-card-image{
+    color: #5C4033;
+    width: 60px;
+    height: 60px;
+    background-color: navajowhite;
+    border-radius: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.shepherd-theme-3 .shepherd-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0px;
+}
+.shepherd-theme-3 .shepherd-button{
+    color: #5C4033;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.shepherd-theme-3 .shepherd-button:hover{
+    color: #5C4033;
+    background-color: white;
+}
+.t3-close-btn{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    height: 20px;
+    width: 20px;
+}
+.t3-close-btn:hover{
+    cursor: pointer;
+}
+
+/*  t3 styles  */
+.shepherd-theme-4 .shepherd-content{
+    padding: 0px;
+}
+.shepherd-theme-4 .shepherd-text{
+    padding: 0px;
+}
+.shepherd-theme-4 .shepherd-footer{
+    border-radius: 0px;
+}
