@@ -14,7 +14,7 @@ function ShepherdTheme({ themeId }) {
         useModalOverlay: false,
         defaultStepOptions: {
           classes: `shepherd-theme-${themeId}`,
-          scrollTo: true,
+          scrollTo: false,
         },
       });
 

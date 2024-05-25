@@ -86,9 +86,9 @@ function t4(tour) {
       <div class="t4-card">
         {/* <svg class ="t4-close-btn"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M405 136.798L375.202 107 256 226.202 136.798 107 107 136.798 226.202 256 107 375.202 136.798 405 256 285.798 375.202 405 405 375.202 285.798 256z"></path></svg> */}
         <div class="t4-card-body">
+            <div class="t4-card-image"></div>
           <div class="t4-card-title">
-            A Comprehensive Guide to Modern Web 
-            Development
+            Modern Web Development
           </div>
           <div class="t4-card-text">
           This guide takes you through the essentials of HTML, CSS, and JavaScript, providing you with the skills to build web pages. 
@@ -102,14 +102,46 @@ function t4(tour) {
         {
           text: "BACK",
           action: tour.cancel,
+          classes:"t4-button-1"
+        
         },
         {
           text: "NEXT",
           action: tour.next,
+          classes:"t4-button-2"
         },
       ],
     };
 }
+function t5(tour) {
+  const htmlString = renderToStaticMarkup(
+    <div class="t5-card">
+      <div class="t5-card-body">
+        <div class="t5-card-title">
+          Web Development
+        </div>
+        <div class="t5-card-text">
+        This guide takes you through the essentials of HTML, CSS, and JavaScript, providing you with the skills to build web pages from scratch.    </div>
+      </div>
+    </div>
+  );
+  return {
+    content: htmlString,
+    buttons: [
+      {
+        text: "Done",
+        action: tour.cancel,
+        classes:"t5-button-1"
+      
+      },
+      {
+        text: "Cancel",
+        action: tour.next,
+        classes:"t5-button-2"
+      },
+    ],
+  };
+}
 export default function GetAllThems() {
-  return { t1, t2,t3,t4 };
+  return { t1, t2,t3,t4,t5 };
 }

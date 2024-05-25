@@ -5,7 +5,7 @@ import ShepherdTheme from "./components/ShepherdTheme";
 function App() {
   return (
     <>
-      <ShepherdTheme themeId = {4}/>
+
 
     </>
   );
