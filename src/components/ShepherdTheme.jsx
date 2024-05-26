@@ -8,7 +8,7 @@ import { useEffect } from "react";
 const getRandomNumber = (min, max) =>
   Math.floor(Math.random() * (max - min + 1)) + min;
 
-function ShepherdTheme({ themeId }) {
+function ShepherdTheme({ themeId,attachTo=null }) {
 
     const tour = new Shepherd.Tour({
         useModalOverlay: false,
@@ -29,9 +29,10 @@ function ShepherdTheme({ themeId }) {
     id: `step-${themeId}`,
     text: `${theme?.content}`,
     attachTo: {
-      element: `.bullet-${classId}`,
-      on: "left",
+      element: attachTo?`.${attachTo}`:`.bullet-${classId}`,
+      on: "top",
     },
+    arrow:false,
     classes: "example-step-extra-class",
     buttons: theme.buttons,
   };

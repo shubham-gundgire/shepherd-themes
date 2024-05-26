@@ -1,0 +1,36 @@
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.logoImage{
+    width: 30px;
+    height: 25px;
+    margin: 0px 5px;
+    color: black;
+}
+.logo{
+    font-family: "Teko", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: black;
+    margin-top: 5px;
+}
+.logoName{
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+}
