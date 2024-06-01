@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.hide{
+    position: absolute;
+    right: 1000%;
+}
+.hide-scrollbar{
+    overflow-x: hidden !important;
+}

@@ -5,6 +5,8 @@ import { useEffect } from "react";
 
 
 
+
+
 const getRandomNumber = (min, max) =>
   Math.floor(Math.random() * (max - min + 1)) + min;
 
@@ -30,16 +32,15 @@ function ShepherdTheme({ themeId,attachTo=null }) {
     text: `${theme?.content}`,
     attachTo: {
       element: attachTo?`.${attachTo}`:`.bullet-${classId}`,
-      on: "top",
+      on: "top-left",
     },
     arrow:false,
     classes: "example-step-extra-class",
-    buttons: theme.buttons,
+    buttons: theme.buttons
   };
 
   //after dom is set then render tour componenet
   function renderTour() {
-
     tour.addStep(tourStep);
     if (!tour.isActive()) {
       tour.start();

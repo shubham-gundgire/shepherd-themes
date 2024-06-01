@@ -10,7 +10,7 @@
   padding: 0px 50px;
   margin-bottom: 30px;
 }
-.attachMe {
+#attachMe {
   position: absolute;
   top: 50%;
   left: 50%;

@@ -5,6 +5,7 @@ import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Example from "./components/example/Example";
 import Theme from "./components/themes/Theme";
+import Test from "./test/Test";
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
     <div className="main">
       <Header/>
       <Hero/>
-      {/* <Example/> */}
+      <Example/>
       <Theme/>
+      {/* <Test/> */}
     </div>
 
     </>
