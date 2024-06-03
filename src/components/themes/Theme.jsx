@@ -31,7 +31,7 @@ function ThemeBox({themeNo,cssCode,jsCode}) {
     let containerWidth = themContainerRef.current.style.width;
     shepherdEditor.current.classList.toggle('hide')
     if(containerWidth === '100%'){
-      themContainerRef.current.style.width = '30%';
+      themContainerRef.current.style.width = '25%';
       setCodeOPen(false);
     }else{
       themContainerRef.current.style.width = '100%';

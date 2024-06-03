@@ -141,6 +141,29 @@ function t5(tour) {
     ],
   };
 }
+function t6(tour) {
+  const htmlString = renderToStaticMarkup(
+    <div class="t6-card">
+      <div class="t6-card-body">
+        <div class="t6-card-title">
+          Web Development
+        </div>
+        <div class="t6-card-text">
+        This guide takes you through the essentials of HTML, CSS, and JavaScript, providing you with the skills to build web pages from scratch. You'll start by learning the basics of HTML to structure your content. </div>
+      </div>
+    </div>
+  );
+  return {
+    content: htmlString,
+    buttons: [
+      {
+        text: "Done",
+        action: tour.next,
+        classes:"t6-button"
+      },
+    ],
+  };
+}
 export default function GetAllThems() {
-  return { t1, t2,t3,t4,t5 };
+  return { t1, t2,t3,t4,t5,t6 };
 }
