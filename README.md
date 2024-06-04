@@ -22,6 +22,9 @@ Shepherd Themes is a collection of beautifully designed themes for the Shepherd.
 
 Project Demo
 
+https://github.com/shubham-gundgire/shepherd-themes/assets/62529512/f9613875-b1e8-46e4-ba63-514918cc839b
+
+
 ## How to Run Project
 
 Clone the project
